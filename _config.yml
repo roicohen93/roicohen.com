@@ -25,8 +25,8 @@ author:
   avatar           : "passport_pic_new.jpg"
   name             : "Roi Cohen"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "a PhD student researching LLMs, under the supervision of Prof. Gerard de Melo"
+  location         : #
   employer         : "HPI"
   uri              : # URL
   email            : "roi3993@gmail.com" 
@@ -37,9 +37,9 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=TcPUXJYAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
