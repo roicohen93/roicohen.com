@@ -13,6 +13,6 @@ I received both my Master’s and Bachelor’s degrees from Tel Aviv University,
 
 Industry Positions
 ======
-
+In addition, I gained experience through several internship and student positions within the language research groups at IBM and Microsoft. During this time, I worked on topics such as instruction tuning, tool-use training, retrieval-augmented generation (RAG), and in-context learning.
 
 
