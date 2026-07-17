@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Roi Cohen"
 title_separator          : "-"
 name                     : &name "Roi Cohen"
-description              : &description "personal description"
+description              : &description "PhD researcher in NLP — factuality, uncertainty & safety of large language models."
 url                      : https://roicohen93.github.io/roicohen.com/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "roicohen.com"
@@ -24,9 +24,9 @@ author:
   # Biographic information
   avatar           : "passport_pic_new.jpg"
   name             : "Roi Cohen"
-  pronouns         : # example: "she/her"  
-  bio              : "a PhD student researching LLMs, under the supervision of Prof. Gerard de Melo"
-  location         : #
+  pronouns         : # example: "she/her"
+  bio              : "PhD researcher in NLP — factuality, uncertainty & safety of large language models."
+  location         : "Berlin, Germany"
   employer         : "HPI"
   uri              : # URL
   email            : "roi3993@gmail.com" 
@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "roichen93"
+  github           : "roicohen93"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -80,12 +80,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  peer-reviewed:
+    title: 'Peer-Reviewed'
+  preprints:
+    title: 'Preprints & Under Review'
+  workshop:
+    title: 'Workshop'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
