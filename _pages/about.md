@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD researcher in the Artificial Intelligence group at the **Hasso Plattner Institute (HPI)**, advised by **Prof. Gerard de Melo**, and currently a **visiting researcher in Prof. Monica S. Lam's group at Stanford University**. My research is on the **factuality, uncertainty, and safety of large language models** — I build methods that reduce hallucination and help models recognize and express the limits of their own knowledge, across pretraining, alignment, and inference. My work has appeared at **NeurIPS, EMNLP, TACL, and EACL**, and includes widely-read papers on hallucination detection (*LM vs LM*), knowledge editing (*Ripple Effects of Knowledge Editing*), and calibrated abstention (the *[IDK] token*). I completed my M.Sc. and B.Sc. at **Tel Aviv University**, where I worked with Prof. Amir Globerson, Prof. Jonathan Berant, and Prof. Mor Geva. I'm also interested in interpretability and reasoning. Before my PhD I conducted research at IBM Research, Microsoft, and Israel's Unit 8200.
+I am a PhD researcher in the Artificial Intelligence group at the **Hasso Plattner Institute (HPI)**, advised by **Prof. Gerard de Melo**, and an upcoming **visiting researcher at Stanford University**. My research is on the **factuality, uncertainty, and safety of large language models** — I build methods that reduce hallucination and help models recognize and express the limits of their own knowledge, across pretraining, alignment, and inference. My work has appeared at **NeurIPS, EMNLP, TACL, and EACL**, and includes widely-read papers on hallucination detection (*LM vs LM*), knowledge editing (*Ripple Effects of Knowledge Editing*), and calibrated abstention (the *[IDK] token*). I completed my M.Sc. and B.Sc. at **Tel Aviv University**, where I worked with Prof. Amir Globerson, Prof. Jonathan Berant, and Prof. Mor Geva. I'm also interested in interpretability and reasoning. Before my PhD I conducted research at IBM Research, Microsoft, and Israel's Unit 8200.
 
 Research Interests
 ======
@@ -20,7 +20,7 @@ Research Interests
 
 News / Updates
 ======
-- **2026** — Began a visiting research position in Prof. Monica S. Lam's group at Stanford. <span style="color:red">**[TODO — Roi to confirm exact month + one-line topic]**</span>
+- **2027** — Upcoming visiting research position at Stanford University, January – May. <span style="color:red">**[TODO — Roi to confirm one-line topic]**</span>
 - **2025** — *InFact: Informativeness Alignment for Improved LLM Factuality* accepted to Findings of EMNLP 2025.
 - **2025** — Featured in *The Wall Street Journal* on why AI chatbots struggle to admit "I don't know."
 - **2024** — *I Don't Know: Explicit Modeling of Uncertainty with an [IDK] Token* accepted to NeurIPS 2024.
@@ -28,7 +28,7 @@ News / Updates
 
 Positions / Experience
 ======
-- **Stanford University** — Visiting Researcher, group of Prof. Monica S. Lam. *2026 – Present.* <span style="color:red">**[TODO — Roi to confirm lab name and a one-line project description]**</span>
+- **Stanford University** — Visiting Researcher. *January – May 2027.* <span style="color:red">**[TODO — Roi to confirm lab name and a one-line project description]**</span>
 - **IBM Research** — Research Scientist, Language Department. *Jun 2023 – Dec 2024.* Instruction alignment & tuning, tool-use training, RAG, in-context learning, active learning.
 - **Second Nature AI** — NLP Researcher. *2022 – Jan 2023.*
 - **Microsoft** — Data Science & Research Intern. *2020 – 2022.*
