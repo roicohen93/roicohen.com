@@ -1,0 +1,30 @@
+/* ==========================================================================
+   LIGHT CUSTOM POLISH
+   Small, non-structural refinements on top of the base theme:
+   a slightly richer link color and more breathing room in long lists.
+   ========================================================================== */
+
+:root {
+  --global-link-color        : #2f6690;
+  --global-link-color-hover  : #1f4d6e;
+  --global-link-color-visited: #4a7fa8;
+}
+
+html[data-theme="dark"] {
+  --global-link-color        : #5fb8dd;
+  --global-link-color-hover  : #8ccde9;
+  --global-link-color-visited: #7fc6e3;
+}
+
+.page__content {
+  line-height: 1.65;
+
+  h2 {
+    margin-top: 2em;
+  }
+
+  ul li,
+  ol li {
+    margin-bottom: 0.4em;
+  }
+}
