@@ -28,3 +28,28 @@ html[data-theme="dark"] {
     margin-bottom: 0.4em;
   }
 }
+
+/* ==========================================================================
+   HOMEPAGE HERO
+   A soft, grainy gradient banner (see images/hero-gradient.svg) with a
+   diagonal lower edge, standing in for the plain title block on the
+   homepage only (triggered by header.overlay_image in _pages/about.md).
+   ========================================================================== */
+
+.page__hero--overlay {
+  padding: 4.5em 0 6em;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
+  .page__title {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  .page__lead {
+    margin-top: 0.5em;
+    font-size: $type-size-4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.92;
+  }
+}

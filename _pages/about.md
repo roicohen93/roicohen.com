@@ -1,7 +1,11 @@
 ---
 permalink: /
-title: "About Me"
+title: "Roi Cohen"
+excerpt: "Epistemic uncertainty &middot; metacognition &middot; reasoning &middot; interpretability"
 author_profile: true
+header:
+  overlay_image: hero-gradient.svg
+  overlay_filter: 0.25
 redirect_from: 
   - /about/
   - /about.html
