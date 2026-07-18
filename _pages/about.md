@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD researcher in the Artificial Intelligence group at the **Hasso Plattner Institute (HPI)**, advised by **Prof. Gerard de Melo**, and an upcoming **visiting researcher at Stanford University**. My research is on the **factuality, uncertainty, and safety of large language models** — I build methods that reduce hallucination and help models recognize and express the limits of their own knowledge, across pretraining, alignment, and inference. My work has appeared at **NeurIPS, EMNLP, TACL, and EACL**, and includes widely-read papers on hallucination detection (*LM vs LM*), knowledge editing (*Ripple Effects of Knowledge Editing*), and calibrated abstention (the *[IDK] token*). I completed my M.Sc. and B.Sc. at **Tel Aviv University**, where I worked with Prof. Amir Globerson, Prof. Jonathan Berant, and Prof. Mor Geva. I'm also interested in interpretability and reasoning. Before my PhD I conducted research at IBM Research, Microsoft, and Israel's Unit 8200.
+I am a PhD researcher in the Artificial Intelligence group at the **Hasso Plattner Institute (HPI)**, advised by **Prof. Gerard de Melo**, and an upcoming **visiting researcher at Stanford University**. My research centers on **epistemic uncertainty and metacognition in large language models** — building methods that let models recognize, quantify, and express the limits of their own knowledge, and studying how they reason about what they know. This spans factuality and hallucination reduction, calibrated abstention, knowledge editing, interpretability, and reasoning, across pretraining, alignment, and inference. My work has appeared at **NeurIPS, EMNLP, TACL, and EACL**, and includes widely-read papers on hallucination detection (*LM vs LM*), knowledge editing (*Ripple Effects of Knowledge Editing*), and calibrated abstention (the *[IDK] token*). I completed my M.Sc. and B.Sc. at **Tel Aviv University**, where I worked with Prof. Amir Globerson, Prof. Jonathan Berant, and Prof. Mor Geva. Before my PhD I conducted research at IBM Research, Microsoft, and Israel's Unit 8200.
 
 Research Interests
 ======
+- Epistemic uncertainty and metacognition in LLMs
 - Factuality and hallucination in LLMs
-- Uncertainty estimation and calibrated abstention ("knowing what you don't know")
+- Reasoning and interpretability
 - Knowledge in language models — knowledge editing, internal knowledge bases
 - Alignment and instruction tuning
-- Interpretability and reasoning
 - LLM safety
 
 News / Updates
