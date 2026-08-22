@@ -53,3 +53,16 @@ html[data-theme="dark"] {
     opacity: 0.92;
   }
 }
+
+/* The theme pins .sidebar with position: fixed at desktop widths, anchored
+   just below the masthead — it has no notion of a hero banner above it, so
+   on this page it would float up and overlap the hero text. Let it sit in
+   normal flow, below the hero, on this page only. */
+.page__hero--overlay + #main .sidebar {
+  @media screen and (min-width: $sidebar-screen-min-width) {
+    position: static;
+    height: auto;
+    overflow-y: visible;
+    padding-top: 2em;
+  }
+}
