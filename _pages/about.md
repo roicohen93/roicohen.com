@@ -24,7 +24,7 @@ Research Interests
 
 News / Updates
 ======
-- **2027** — Upcoming visiting research position at Stanford University, January – May.
+- **2026** — Began a visiting research position at Stanford University, August.
 - **2025** — *InFact: Informativeness Alignment for Improved LLM Factuality* accepted to Findings of EMNLP 2025.
 - **2025** — Featured in *The Wall Street Journal* on why AI chatbots struggle to admit "I don't know."
 - **2024** — *I Don't Know: Explicit Modeling of Uncertainty with an [IDK] Token* accepted to NeurIPS 2024.
@@ -32,9 +32,8 @@ News / Updates
 
 Positions / Experience
 ======
-- **Stanford University** — Visiting Researcher. *January – May 2027.*
+- **Stanford University** — Visiting Researcher. *August 2026 – Present.*
 - **IBM Research** — Research Scientist, Language Department. *Jun 2023 – Dec 2024.* Instruction alignment & tuning, tool-use training, RAG, in-context learning, active learning.
-- **Second Nature AI** — NLP Researcher. *2022 – Jan 2023.*
 - **Microsoft** — Data Science & Research Intern. *2020 – 2022.*
 - **Tel Aviv University**, Dept. of Computational Biology — Data Scientist. *2019 – 2020.*
 - **Unit 8200, IDF** — Researcher & Developer (team lead, final year). *2014 – 2019.*
