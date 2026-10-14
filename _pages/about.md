@@ -11,7 +11,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD researcher in the Artificial Intelligence group at the **Hasso Plattner Institute (HPI)**, advised by **Prof. Gerard de Melo**, and an upcoming **visiting researcher at Stanford University**. My research centers on **epistemic uncertainty and metacognition in large language models** - building methods that let models recognize, quantify, and express the limits of their own knowledge, and studying how they reason about what they know. This spans factuality and hallucination reduction, calibrated abstention, knowledge editing, interpretability, and reasoning, across pretraining, alignment, and inference.
+I am a PhD researcher in the Artificial Intelligence group at the **Hasso Plattner Institute (HPI)**, advised by **Prof. Gerard de Melo**, and currently a **visiting researcher at Stanford University**. My research centers on **epistemic uncertainty and metacognition in large language models** - building methods that let models recognize, quantify, and express the limits of their own knowledge, and studying how they reason about what they know. This spans factuality and hallucination reduction, calibrated abstention, knowledge editing, interpretability, and reasoning, across pretraining, alignment, and inference.
+
+I am currently working on a few new projects and am open to collaborations. If your interests overlap with mine, please feel free to [get in touch](mailto:roi3993@gmail.com).
 
 Research Interests
 ======
