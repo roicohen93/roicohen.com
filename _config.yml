@@ -22,7 +22,7 @@ repository               : "roicohen.com"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "passport_pic_new.jpg"
+  avatar           : "profile.jpg"
   name             : "Roi Cohen"
   pronouns         : # example: "she/her"
   bio              : "PhD researcher in NLP - epistemic uncertainty, metacognition, reasoning & interpretability in large language models."
