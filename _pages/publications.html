@@ -1,35 +1,22 @@
 ---
-layout: archive
+layout: minimal
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<section class="intro intro--compact">
+  <h1 class="intro__statement">Publications</h1>
+  <p class="label">Full list on <a href="{{ site.author.googlescholar }}">Google Scholar</a></p>
+</section>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category == category[0] %}
-        {% unless title_shown %}
-          <h2>{{ category[1].title }}</h2><hr />
-          {% assign title_shown = true %}
-        {% endunless %}
-        {% include archive-single.html %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% for category in site.publication_category %}
+  {% assign pubs = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+  {% if pubs.size > 0 %}
+<section class="row">
+  <h2 class="label">{{ category[1].title }}</h2>
+  <ul class="row__body plain pubs">
+    {% for pub in pubs %}{% include pub-entry.html pub=pub %}{% endfor %}
+  </ul>
+</section>
+  {% endif %}
+{% endfor %}

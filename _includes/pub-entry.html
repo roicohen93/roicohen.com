@@ -1,0 +1,5 @@
+<li class="pub">
+  {% if include.pub.paperurl %}<a class="pub__title" href="{{ include.pub.paperurl }}">{{ include.pub.title }}</a>{% else %}<span class="pub__title">{{ include.pub.title }}</span>{% endif %}
+  <span class="pub__authors">{{ include.pub.authors }}</span>
+  <span class="pub__venue">{{ include.pub.venue }}</span>
+</li>

@@ -7,6 +7,7 @@ excerpt: ''
 date: 2024-06-01
 venue: 'TACL 2024'
 paperurl: 'https://aclanthology.org/2024.tacl-1.16/'
+authors: '<b>Roi Cohen</b>, Eden Biran, Ori Yoran, Amir Globerson, Mor Geva'
 citation: '<b>Roi Cohen</b>, Eden Biran, Ori Yoran, Amir Globerson, Mor Geva. &quot;Evaluating the Ripple Effects of Knowledge Editing in Language Models.&quot; <i>TACL 2024</i>.'
 ---
 

@@ -1,0 +1,83 @@
+---
+permalink: /
+title: "About"
+layout: minimal
+description: "Roi Cohen - PhD candidate working on self-aware AI models. Epistemic uncertainty, metacognition, reasoning and interpretability in large language models."
+redirect_from:
+  - /about/
+  - /about.html
+interests:
+  - Epistemic uncertainty and metacognition in LLMs
+  - Factuality and hallucination
+  - Reasoning and interpretability
+  - Knowledge in language models, knowledge editing
+  - Alignment and instruction tuning
+  - LLM safety
+news:
+  - date: "Aug 2026"
+    text: "Began a visiting research position at Stanford University."
+  - date: "2025"
+    text: "<em>InFact</em> accepted to Findings of EMNLP 2025."
+  - date: "2025"
+    text: 'Featured in <a href="https://www.wsj.com/tech/ai/ai-hallucination-answers-i-dont-know-738bde07">The Wall Street Journal</a> on why AI chatbots struggle to admit &ldquo;I don&rsquo;t know.&rdquo;'
+  - date: "2024"
+    text: "<em>I Don&rsquo;t Know: Explicit Modeling of Uncertainty with an [IDK] Token</em> accepted to NeurIPS 2024."
+  - date: "2024"
+    text: "<em>Evaluating the Ripple Effects of Knowledge Editing in Language Models</em> published in TACL."
+---
+
+<section class="intro">
+  <h1 class="intro__statement">PhD candidate working on <span class="nowrap">self-aware</span> AI models.</h1>
+  <p class="label">HPI &middot; Stanford &middot; San Francisco Bay Area</p>
+</section>
+
+<figure class="portrait">
+  <img src="{{ '/images/profile.jpg' | relative_url }}" alt="Roi Cohen by a mountain lake" width="600" height="600">
+</figure>
+
+<section class="row">
+  <h2 class="label">About</h2>
+  <div class="row__body prose">
+    <p>I am a PhD researcher in the Artificial Intelligence group at the Hasso Plattner Institute (HPI), advised by Prof. Gerard de Melo, and currently a visiting researcher at Stanford University. My research centers on epistemic uncertainty and metacognition in large language models - building methods that let models recognize, quantify, and express the limits of their own knowledge, and studying how they reason about what they know. This spans factuality and hallucination reduction, calibrated abstention, knowledge editing, interpretability, and reasoning, across pretraining, alignment, and inference.</p>
+    <p>I am currently working on a few new projects and am open to collaborations. If your interests overlap with mine, please feel free to <a href="mailto:{{ site.author.email }}">get in touch</a>.</p>
+  </div>
+</section>
+
+<section class="row">
+  <h2 class="label">Research</h2>
+  <ul class="row__body plain">
+    {% for item in page.interests %}<li>{{ item }}</li>{% endfor %}
+  </ul>
+</section>
+
+<section class="row">
+  <h2 class="label">News</h2>
+  <ul class="row__body plain news">
+    {% for n in page.news %}<li><span class="news__date">{{ n.date }}</span><span>{{ n.text }}</span></li>{% endfor %}
+  </ul>
+</section>
+
+<section class="row">
+  <h2 class="label">Selected work</h2>
+  <div class="row__body">
+    <ul class="plain pubs">
+      {% assign selected = site.publications | where: "category", "peer-reviewed" | sort: "date" | reverse %}
+      {% for pub in selected %}{% include pub-entry.html pub=pub %}{% endfor %}
+    </ul>
+    <a class="more" href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
+  </div>
+</section>
+
+<section class="row">
+  <h2 class="label">Press</h2>
+  <ul class="row__body plain">
+    <li><a href="https://www.wsj.com/tech/ai/ai-hallucination-answers-i-dont-know-738bde07">The Wall Street Journal - &ldquo;Why Do AI Chatbots Have Such a Hard Time Admitting &lsquo;I Don&rsquo;t Know&rsquo;&rdquo;</a></li>
+  </ul>
+</section>
+
+<section class="row">
+  <h2 class="label">Contact</h2>
+  <ul class="row__body plain">
+    <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+  </ul>
+</section>
