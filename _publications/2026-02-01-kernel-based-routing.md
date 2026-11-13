@@ -5,7 +5,7 @@ category: preprints
 permalink: /publication/2026-02-01-kernel-based-routing
 excerpt: ''
 date: 2026-02-01
-venue: 'Under review, COLM 2026'
+venue: 'Preprint'
 authors: '<b>Roi Cohen</b>, Omri Fahn, Gerard de Melo'
-citation: '<b>Roi Cohen</b>, Omri Fahn, Gerard de Melo. &quot;Uncertainty Beyond Geometry: Kernel-Based Functional Routing in LLMs.&quot; <i>Under review, COLM 2026</i>.'
+citation: '<b>Roi Cohen</b>, Omri Fahn, Gerard de Melo. &quot;Uncertainty Beyond Geometry: Kernel-Based Functional Routing in LLMs.&quot; <i>Preprint</i>.'
 ---
