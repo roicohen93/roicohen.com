@@ -63,8 +63,8 @@ news:
   <h2 class="label">Selected work</h2>
   <div class="row__body">
     <ul class="plain pubs">
-      {% assign selected = site.publications | where: "category", "peer-reviewed" | where_exp: "p", "p.selected != false" | sort: "date" | reverse %}
-      {% for pub in selected %}{% include pub-entry.html pub=pub %}{% endfor %}
+      {% assign selected = site.publications | where_exp: "p", "p.selected != false" | sort: "date" | reverse %}
+      {% for pub in selected %}{% if pub.category == "peer-reviewed" or pub.selected == true %}{% include pub-entry.html pub=pub %}{% endif %}{% endfor %}
     </ul>
     <a class="more" href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
   </div>
