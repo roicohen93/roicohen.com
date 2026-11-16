@@ -306,3 +306,33 @@ img {
 .nowrap {
   white-space: nowrap;
 }
+
+/* Blog posts */
+
+.posts .post {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.posts .post + .post {
+  margin-top: 26px;
+}
+
+.post__title {
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.post__summary {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.post__meta {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

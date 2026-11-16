@@ -71,6 +71,13 @@ news:
 </section>
 
 <section class="row">
+  <h2 class="label">Blog</h2>
+  <ul class="row__body plain posts">
+    {% for post in site.data.posts limit: 3 %}{% include post-entry.html post=post %}{% endfor %}
+  </ul>
+</section>
+
+<section class="row">
   <h2 class="label">Press</h2>
   <ul class="row__body plain">
     <li><a href="https://www.wsj.com/tech/ai/ai-halluciation-answers-i-dont-know-738bde07">The Wall Street Journal - &ldquo;Why Do AI Chatbots Have Such a Hard Time Admitting &lsquo;I Don&rsquo;t Know&rsquo;&rdquo;</a></li>

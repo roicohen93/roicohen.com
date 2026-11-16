@@ -1,0 +1,5 @@
+- title: "Can we compress backpropagation into a model?"
+  url: /blog/compress-backpropagation/
+  date: "Nov 2026"
+  authors: "Roi Cohen, Ben Shapira"
+  summary: "We trained a meta-model to turn task descriptions and examples into weight updates for another model. Here is what we tried, what worked, and where the approach still falls short."
